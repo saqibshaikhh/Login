@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+   
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    padding: 8px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    text-decoration: none;
+    /* background-image: url(bg.jpg); */
+    /* background: rgba(252, 252, 252, 0.322); */
+    box-shadow: 0px 5px 15px ;
+    background-size: cover;
+    border-image: url(bg.jpg);
+    border-radius: 10px;
+    width: 25%;
+    height: 70vh;
+    padding: 5px 20px 15px 20px;
+    overflow: hidden;  
+    background: rgba(255, 255, 255, 0.068);
+ }  
+.container{
+     
+    text-align: center;
+   
+}  
+.login{
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+    color: lightyellow;
+
+
+}
+input[type="username"],
+input[type="Password"],
+select,
+textarea{
+   
+    width: 50%;
+    padding: 6px;
+    border-radius: 5px;
+}
+input[type="username"] {
+   
+    text-align: center;
+    /* background-image: url(img.jpg); */
+   
+    background-color: lightgoldenrodyellow;
+}
+input[type="password"] {
+    text-align: center;
+    /* background-image: url(img.jpg); */
+    background-color: lightgoldenrodyellow;
+}
+.Password{
+   
+    text-align: center;
+}
+/* .username{
+   
+    text-align: center; */
+/* } */
+/* .Password{
+    float: left;
+} */
+/* .submit
+{
+    padding: 6px 6px;
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+    background-size: cover;
+} */
+
+.container .username input {
+    background-color: rgba(252, 252, 252, 0.397);
+}
+
+.container .password input {
+    background-color: rgba(252, 252, 252, 0.397);
+}
+.Account
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;    
+}
+
+.container .submit input{
+    width: 45%;
+    height: 5vh;
+    font-size: 17px;
+    font-weight: 200;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.container .submit input:hover {
+    letter-spacing: 0.2em;
+}
